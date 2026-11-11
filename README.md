@@ -1,1 +1,0 @@
-# atividade_like_bcd
