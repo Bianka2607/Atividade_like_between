@@ -23,6 +23,10 @@ SELECT
     Venda.preco_unitario_venda,
     Venda.forma_pagamento
 FROM Cliente
+
+
+
+
 INNER JOIN Venda
 ON Cliente.id_cliente = Venda.id_cliente
 WHERE Cliente.nome_cliente LIKE 'C%';
